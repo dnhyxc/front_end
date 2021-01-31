@@ -1,0 +1,43 @@
+// body,
+// html {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//     sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+
+//   &>div:first-child {
+//     width: 100%;
+//     height: 100%;
+//   }
+// }
+
+@import '~./config/styles/bgc.less';
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: PingFangSC-Regular, Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Source Han Sans SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  overflow-x: hidden;
+
+  &>div:first-child {
+    width: 100%;
+    height: 100%;
+  }
+
+  // 设置双击不选中文字
+  .clickNoSelectText();
+
+  // 让网页整体变成灰色
+  // .htmlToGray();
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
